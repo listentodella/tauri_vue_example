@@ -103,6 +103,11 @@ const router = createRouter({
             name: "serial",
             path: "/serial",
             component: () => import("../pages/Serial.vue")
+        },
+        {
+            name: "websocket",
+            path: "/websocket",
+            component: () => import("../pages/WebSocket.vue")
         }
     ]
 })

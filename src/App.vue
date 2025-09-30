@@ -46,6 +46,7 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink :to="{ name: 'watch' }" active-class="active">Watch</RouterLink>
       <RouterLink :to="{ name: 'about' }" active-class="active">关于</RouterLink>
       <RouterLink :to="{ name: 'serial' }" active-class="active">serial通信</RouterLink>
+      <RouterLink :to="{ name: 'websocket' }" active-class="active">WebSocket</RouterLink>
     </div>
     <!-- 展示区 -->
     <div class="main-content">
